@@ -1,0 +1,167 @@
+Low-memory Docker Container Sysbench CPU Tests: 2 core, 512 MB Memory
+===========================================================
+Test 1
+------
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  3243.32
+
+General statistics:
+    total time:                          30.0007s
+    total number of events:              97309
+
+Latency (ms):
+         min:                                    0.28
+         avg:                                    0.31
+         max:                                    6.71
+         95th percentile:                        0.37
+         sum:                                29711.88
+
+Threads fairness:
+    events (avg/stddev):           97309.0000/0.00
+    execution time (avg/stddev):   29.7119/0.00
+
+Test 2
+------
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  3220.13
+
+General statistics:
+    total time:                          30.0003s
+    total number of events:              96610
+
+Latency (ms):
+         min:                                    0.28
+         avg:                                    0.31
+         max:                                    7.91
+         95th percentile:                        0.38
+         sum:                                29712.93
+
+Threads fairness:
+    events (avg/stddev):           96610.0000/0.00
+    execution time (avg/stddev):   29.7129/0.00
+
+Test 3
+------
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  3300.57
+
+General statistics:
+    total time:                          30.0002s
+    total number of events:              99023
+
+Latency (ms):
+         min:                                    0.28
+         avg:                                    0.30
+         max:                                    4.51
+         95th percentile:                        0.35
+         sum:                                29719.68
+
+Threads fairness:
+    events (avg/stddev):           99023.0000/0.00
+    execution time (avg/stddev):   29.7197/0.00
+
+Test 4
+------
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  3301.68
+
+General statistics:
+    total time:                          30.0001s
+    total number of events:              99056
+
+Latency (ms):
+         min:                                    0.28
+         avg:                                    0.30
+         max:                                    3.35
+         95th percentile:                        0.35
+         sum:                                29716.80
+
+Threads fairness:
+    events (avg/stddev):           99056.0000/0.00
+    execution time (avg/stddev):   29.7168/0.00
+
+Test 5
+------
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:  3290.68
+
+General statistics:
+    total time:                          30.0003s
+    total number of events:              98729
+
+Latency (ms):
+         min:                                    0.28
+         avg:                                    0.30
+         max:                                    6.61
+         95th percentile:                        0.36
+         sum:                                29723.22
+
+Threads fairness:
+    events (avg/stddev):           98729.0000/0.00
+    execution time (avg/stddev):   29.7232/0.00
+
