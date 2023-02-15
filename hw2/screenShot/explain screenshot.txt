@@ -1,0 +1,13 @@
+figlet function.png--------invoking the figlet function 
+
+openfaas.png-------------a screenshot of your OpenFaaS gateway 
+
+slack-interactive-invoking.png-----a screenshot of invoking slack-interactive functions
+
+slack-interactive.png----------screenshot of url slack-interactive
+
+slack-request-invoking.png---------a screenshot of invoking slack-request 
+
+slack-request.png---------screenshot of url slack-request
+
+sudo journalctl -u faasd --lines 40.png------a screenshot of running the following command sudo journalctl -u faasd --lines 40
